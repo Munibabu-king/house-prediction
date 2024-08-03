@@ -9,26 +9,21 @@ Installation
 To run this project, you need to have Python installed on your machine. The required libraries are listed in requirements.txt. You can install them using the following command:
 
 bash
-Copy code
 pip install -r requirements.txt
 Usage
 Clone this repository:
 bash
-Copy code
 git clone https://github.com/yourusername/house-price-prediction.git
 cd house-price-prediction
 Install the required libraries:
 bash
-Copy code
 pip install -r requirements.txt
 Run the Jupyter notebook or the Python script to preprocess the data, train the model, and make predictions:
 bash
-Copy code
 jupyter notebook House_Price_Prediction.ipynb
 or
 
 bash
-Copy code
 python house_price_prediction.py
 Model
 The project uses various regression models to predict house prices. The primary models explored are:
